@@ -5,18 +5,11 @@ https://qiita.com/mogamin/items/a65e2eaa4b27aa0a1c23
 
 
 ## Installation
-### require software
-* Visual Studio 2017/C++
-* cmake
-* python env.(v3.7)
-    * https://qiita.com/84zume/items/27d143f529396c9fa1cc
+### require
+* pipenv
 
-### pip install
-* numpy
-* opencv-python
-* imutils
-* scipy
-* dlib
+### install
+`$ pipenv install`
 
 ### model file.
 * download and extract-bz2 and place $ROOT/
@@ -25,9 +18,5 @@ https://qiita.com/mogamin/items/a65e2eaa4b27aa0a1c23
 
 ### how to execute
 ```
-python ./eye_blink_detector_dlib1.py
-python ./eye_blink_detector_dlib2.py
-python ./eye_blink_detector_dlib3.py
-python ./eye_blink_detector_dlib4.py
-python ./eye_blink_detector_opencv.py
+$ pipenv run python ./eye_blink_detector_dlib4.py
 ```
